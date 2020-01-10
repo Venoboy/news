@@ -4,7 +4,7 @@ body {
         }
         .all {
             display: flex;
-            width: 1200px;
+            width: available;
             margin: 0 auto;
             background-image: url("../Pictures/background.jpg");
             background-repeat: repeat;
