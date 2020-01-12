@@ -1,105 +1,128 @@
 .cont2 {
-            margin: 0 19px;
-        }
-        .cont2-tabbbs-tabbb1, .cont2-tabbbs-tabbb2, .cont2-tabbbs-tabbb3 {
-            border: 1px solid #ececec ;
-            border-top: none;
-            color: #333333;
-            padding-bottom: 19px;
-            border-radius: 0 0 3px 3px;
-        }
-        .cont2-tabbbs-buttons {
-            display: flex;
-            margin-top: 20px;
-            color: #999999;
+    margin: 0 19px;
+}
 
-        }
-        .cont2-tabbbs-tabbb4_space {
-            flex-grow: 1;
-        }
-        .cont2-tabbbs-buttons div {
+.cont2-tabbbs-tabbb1, .cont2-tabbbs-tabbb2, .cont2-tabbbs-tabbb3 {
+    border: 1px solid #ececec;
+    border-top: none;
+    color: #333333;
+    padding-bottom: 19px;
+    border-radius: 0 0 3px 3px;
+}
 
-            padding: 10px 11px;
-            font-family: Arial, sans-serif;
-            font-size: 14px;
-            border: 1px solid #ececec;
-            background: linear-gradient(to bottom, #fdfdfd, #f8f8f8);
-        }
-        div .cont2-tabbbs-tabbb1_button, div .cont2-tabbbs-tabbb2_button, div .cont2-tabbbs-tabbb3_button {
-            border-right: none;
-        }
-        .cont2-input {
-            display: none;
-        }
-        .cont2-h2 {
-            font-family: Oxygen, sans-serif;
-            font-size: 18px;
-            margin: 12px 0 16px 3px;
-            font-weight: normal;
-            color: #222222;
-        }
-        .cont2-tabbbs-tabbb1-descr {
-            font-family: Arial, sans-serif;
-            font-size: 14px;
-            margin: 0 0 7px 21px;
-            padding-top: 31px;
-        }
-        .cont2-tabbbs-tabbb1-content {
-            font-family: Arial, sans-serif;
-            font-size: 12px;
-            line-height: 1.6;
-            display: flex;
-            border-top: 1px solid #e5e5e5 ;
-            margin: 0 20px;
-        }
-        .cont2-tabbbs-tabbb1-content-list-ul {
-            padding-left: 20px;
-        }
-        .cont2-tabbbs-tabbb1-content-list-ul li {
-            list-style-image: url("../Pictures/list.jpg");
-        }
-        .cont2-tabbbs-tabbb1-content-list, .cont2-tabbbs-tabbb1-content-block1, .cont2-tabbbs-tabbb1-content-block2 {
-            width: calc(100% / 3);
-            padding-right: 10px;
-        }
-        .cont2-tabbbs-tabbb1-content-block1, .cont2-tabbbs-tabbb1-content-block2 {
-            padding-top: 15px;
-        }
-        .cont2-tabbbs-tabbb1-content-block1-pic, .cont2-tabbbs-tabbb1-content-block2-pic {
-            float: left;
-            margin-right: 10px;
-            padding: 2px;
-            border: 1px solid #f1f1f1;
-        }
-        .highlighted {
-            color: #c07e00;
-            background: #ffe7b9;
-        }
-        ::selection {
-            color: #c07e00;
-            background: #ffe7b9;
-        }
-        input[id="tabbb1"]:checked ~ div label .cont2-tabbbs-tabbb1_button {
-            background: none;
-            border-bottom: none;
-        }
-        input[id="tabbb2"]:checked ~ div label .cont2-tabbbs-tabbb2_button {
-            background: none;
-            border-bottom: none;
-        }
-        input[id="tabbb3"]:checked ~ div label .cont2-tabbbs-tabbb3_button {
-            background: none;
-            border-bottom: none;
-        }
-        input[id="tabbb1"]:checked ~ .cont2-tabbbs-tabbb1 {
-            display: block;
-        }
-        input[id="tabbb2"]:checked ~ .cont2-tabbbs-tabbb2 {
-            display: block;
-        }
-        input[id="tabbb3"]:checked ~ .cont2-tabbbs-tabbb3 {
-            display: block;
-        }
-        .cont2-tabbbs-tabbb1, .cont2-tabbbs-tabbb2, .cont2-tabbbs-tabbb3 {
-            display: none;
-        }
+.cont2-tabbbs-buttons {
+    display: flex;
+    margin-top: 20px;
+    color: #999999;
+}
+
+.cont2-tabbbs-tabbb4_space {
+    flex-grow: 1;
+}
+
+.cont2-tabbbs-buttons div {
+
+    padding: 10px 11px;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    border: 1px solid #ececec;
+    background: linear-gradient(to bottom, #fdfdfd, #f8f8f8);
+}
+
+div .cont2-tabbbs-tabbb1_button, div .cont2-tabbbs-tabbb2_button, div .cont2-tabbbs-tabbb3_button {
+    border-right: none;
+    cursor: pointer;
+}
+
+.cont2-input {
+    display: none;
+}
+
+.cont2-h2 {
+    font-family: Oxygen, sans-serif;
+    font-size: 18px;
+    margin: 12px 0 16px 3px;
+    font-weight: normal;
+    color: #222222;
+}
+
+.cont2-tabbbs-tabbb1-descr {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    margin: 0 0 7px 21px;
+    padding-top: 31px;
+}
+
+.cont2-tabbbs-tabbb1-content {
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    line-height: 1.6;
+    display: flex;
+    border-top: 1px solid #e5e5e5;
+    margin: 0 20px;
+}
+
+.cont2-tabbbs-tabbb1-content-list-ul {
+    padding-left: 20px;
+}
+
+.cont2-tabbbs-tabbb1-content-list-ul li {
+    list-style-image: url("../Pictures/list.jpg");
+}
+
+.cont2-tabbbs-tabbb1-content-list, .cont2-tabbbs-tabbb1-content-block1, .cont2-tabbbs-tabbb1-content-block2 {
+    width: calc(100% / 3);
+    padding-right: 10px;
+}
+
+.cont2-tabbbs-tabbb1-content-block1, .cont2-tabbbs-tabbb1-content-block2 {
+    padding-top: 15px;
+}
+
+.cont2-tabbbs-tabbb1-content-block1-pic, .cont2-tabbbs-tabbb1-content-block2-pic {
+    float: left;
+    margin-right: 10px;
+    padding: 2px;
+    border: 1px solid #f1f1f1;
+}
+
+.highlighted {
+    color: #c07e00;
+    background: #ffe7b9;
+}
+
+::selection {
+    color: #c07e00;
+    background: #ffe7b9;
+}
+
+input[id="tabbb1"]:checked ~ div label .cont2-tabbbs-tabbb1_button {
+    background: none;
+    border-bottom: none;
+}
+
+input[id="tabbb2"]:checked ~ div label .cont2-tabbbs-tabbb2_button {
+    background: none;
+    border-bottom: none;
+}
+
+input[id="tabbb3"]:checked ~ div label .cont2-tabbbs-tabbb3_button {
+    background: none;
+    border-bottom: none;
+}
+
+input[id="tabbb1"]:checked ~ .cont2-tabbbs-tabbb1 {
+    display: block;
+}
+
+input[id="tabbb2"]:checked ~ .cont2-tabbbs-tabbb2 {
+    display: block;
+}
+
+input[id="tabbb3"]:checked ~ .cont2-tabbbs-tabbb3 {
+    display: block;
+}
+
+.cont2-tabbbs-tabbb1, .cont2-tabbbs-tabbb2, .cont2-tabbbs-tabbb3 {
+    display: none;
+}
